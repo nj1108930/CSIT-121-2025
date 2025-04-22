@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="tierlist.html">Tier List</a></li>
+            <li><a href="contact.html">Contact Form</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact Us About the Candy Tier List</h1>
+
+    <form action="#" method="post" aria-label="Candy Tier List Feedback Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="favorite">What is your favorite candy?</label>
+        <select id="favorite" name="favorite">
+            <option value="snickers">Snickers</option>
+            <option value="reeses">Reese's</option>
+            <option value="skittles">Skittles</option>
+            <option value="twix">Twix</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Do you agree with the candy rankings?</legend>
+            <input type="radio" id="yes" name="agree" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="agree" value="no">
+            <label for="no">No</label>
+        </fieldset><br>
+
+        <p>Which tier would you fix? (Check all that apply)</p>
+         <input type="checkbox" id="tierS" name="fix[]" value="S">
+         <label for="tierS">S Tier</label><br>
+         <input type="checkbox" id="tierA" name="fix[]" value="A">
+         <label for="tierA">A Tier</label><br>
+         <input type="checkbox" id="tierB" name="fix[]" value="B">
+         <label for="tierB">B Tier</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Share your thoughts..."></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>
