@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PNG Image</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="jpg.html">JPG</a>
+    <a href="png.html" class="active">PNG</a>
+    <a href="gif.html">GIF</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      &#9776;
+    </a>
+  </div>
+
+  <header>
+    <h1>PNG Image</h1>
+  </header>
+
+  <div id="wrapper">
+    <main>
+      <h2>File Type: PNG</h2>
+      <img src="images/image2.png" alt="Spiderman in an action pose" width="400">
+      <p><strong>Why I Chose This Image:</strong> PNG is great for images that need transparency, making it ideal for characters like Spiderman in web design. Also, Spiderman is my favorite superhero.</p>
+      <p><strong>Image Source:</strong> <a href="https://colab.research.google.com/drive/1ZWkWKUK5LKO0q4ydouRsJ6c6mcQRsaOo" target="_blank">Google Colab</a></p>
+    </main>
+  </div>
+
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

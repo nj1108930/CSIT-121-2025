@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JPG Image</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="jpg.html" class="active">JPG</a>
+    <a href="png.html">PNG</a>
+    <a href="gif.html">GIF</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      &#9776;
+    </a>
+  </div>
+
+  <header>
+    <h1>JPG Image</h1>
+  </header>
+
+  <div id="wrapper">
+    <main>
+      <h2>File Type: JPG</h2>
+      <img src="images/image1.jpg" alt="A landscape with mountains and a lake" width="400">
+      <p><strong>Why I Chose This Image:</strong> This image perfectly represents the strengths of the JPG format because of the vivid colors, high detail, and great compression for photographs. This is a very eye-catching JPG image as well.</p>
+      <p><strong>Image Source:</strong> <a href="https://www.pexels.com/search/landscape/" target="_blank">Pexels</a></p>
+    </main>
+  </div>
+
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>
