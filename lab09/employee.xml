@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+    <employee id="101">
+        <firstname>Caleb</firstname>
+        <lastname>Andrews</lastname>
+        <title>Project Coordinator</title>
+        <division>Operations</division>
+        <building>401</building>
+        <room>11</room>
+    </employee>
+    <employee id="102">
+        <firstname>Tina</firstname>
+        <lastname>Ngugi</lastname>
+        <title>Quality Analyst</title>
+        <division>QA</division>
+        <building>410</building>
+        <room>15</room>
+    </employee>
+    <employee id="103">
+        <firstname>David</firstname>
+        <lastname>Lee</lastname>
+        <title>Backend Developer</title>
+        <division>IT</division>
+        <building>403</building>
+        <room>18</room>
+    </employee>
+    <employee id="104">
+        <firstname>Monica</firstname>
+        <lastname>Reed</lastname>
+        <title>Content Strategist</title>
+        <division>Marketing</division>
+        <building>307</building>
+        <room>7</room>
+    </employee>
+    <employee id="105">
+        <firstname>Samir</firstname>
+        <lastname>Patel</lastname>
+        <title>Financial Analyst</title>
+        <division>Finance</division>
+        <building>215</building>
+        <room>5</room>
+    </employee>
+    <employee id="106">
+        <firstname>Janelle</firstname>
+        <lastname>Wong</lastname>
+        <title>UI Designer</title>
+        <division>Design</division>
+        <building>208</building>
+        <room>4</room>
+    </employee>
+    <employee id="107">
+        <firstname>Ravi</firstname>
+        <lastname>Desai</lastname>
+        <title>Systems Admin</title>
+        <division>IT</division>
+        <building>305</building>
+        <room>9</room>
+    </employee>
+    <employee id="108">
+        <firstname>Aisha</firstname>
+        <lastname>Smith</lastname>
+        <title>Policy Advisor</title>
+        <division>Legal</division>
+        <building>110</building>
+        <room>6</room>
+    </employee>
+    <employee id="109">
+        <firstname>Luis</firstname>
+        <lastname>Ramirez</lastname>
+        <title>DevOps Engineer</title>
+        <division>Infrastructure</division>
+        <building>502</building>
+        <room>3</room>
+    </employee>
+    <employee id="110">
+        <firstname>Natalie</firstname>
+        <lastname>Johnson</lastname>
+        <title>Data Analyst</title>
+        <division>Analytics</division>
+        <building>420</building>
+        <room>8</room>
+    </employee>
+</employees>
